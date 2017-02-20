@@ -8,7 +8,7 @@ arch=('i686' 'x86_64')
 url="https://www.nomadproject.io/"
 license=('MPL')
 depends=('ethtool')
-makedepends=('go' 'git')
+makedepends=('go' 'git' 'lib32-glibc')
 optdepends=(
 	'docker'
 	'rkt'
